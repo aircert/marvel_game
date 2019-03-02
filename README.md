@@ -27,4 +27,4 @@ Your code should satisfy the following criteria:
   - Provide clear instructions on how to retrieve and run your code
 
 
-You are free to use any open-source gems or libraries to accomplish the task, but it must be written in Ruby 2.5.3. Be sure to clearly list out any assumptions that you make throughout the process. Please complete the assessment within 3 days and email either a zipped copy of all project files or a link to where we can download them
+* Disclaimer: Do not abuse API - My private/public key are hard coded
