@@ -1,5 +1,12 @@
 # Text Based Marvel Combat Arena
 
+### How-To-Run:
+
+```
+ruby -v == '2.5.3'
+ruby main.rb
+```
+
 ### Objective:
 Please create a text based Marvel character combat arena using their public API available at: https://developer.marvel.com/ The combat arena will take 2 provided character names and then choose the winner based on the length of a specific word in their bio. Your code should demonstrate your ability to interface with an authenticated API, accept input from a user, and deal gracefully with errors and edge cases. 
 
@@ -10,14 +17,14 @@ For this assessment, we will focus on the description field of the “characters
 
 Your code should satisfy the following criteria:
 
-  The user will provide 2 character names to do battle in the arena
-  The user will provide a SEED number between 1-9
-  Retrieve the bio for each character and parse the “description” field
-  Choose the WORD in each description corresponding to the provided SEED
-  The winner of the battle is the character whose WORD has the most characters EXCEPT if either character has a MAGIC WORD “Gamma” or “Radioactive” they automatically Win
-  Present the winning character to the user
-  Handle any errors or edge cases and display the message in a user friendly manner
-  Provide clear instructions on how to retrieve and run your code
+  - The user will provide 2 character names to do battle in the arena
+  - The user will provide a SEED number between 1-9
+  - Retrieve the bio for each character and parse the “description” field
+  - Choose the WORD in each description corresponding to the provided SEED
+  - The winner of the battle is the character whose WORD has the most characters EXCEPT if either character has a MAGIC WORD “Gamma” or “Radioactive” they automatically Win
+  - Present the winning character to the user
+  - Handle any errors or edge cases and display the message in a user friendly manner
+  - Provide clear instructions on how to retrieve and run your code
 
 
 You are free to use any open-source gems or libraries to accomplish the task, but it must be written in Ruby 2.5.3. Be sure to clearly list out any assumptions that you make throughout the process. Please complete the assessment within 3 days and email either a zipped copy of all project files or a link to where we can download them
