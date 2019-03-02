@@ -5,6 +5,19 @@
 ```
 ruby -v == '2.5.3'
 ruby main.rb
+
+Example Input:
+Player One
+Name of your character
+hulk
+What is your SEED (1-9)?
+2
+Player Two
+Name of your character
+spider-man
+What is your SEED (1-9)?
+2
+TIE 
 ```
 
 ### Objective:
